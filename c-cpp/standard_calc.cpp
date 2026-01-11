@@ -70,8 +70,3 @@ bool is_angle_between(float first_angle, float middle_angle, float second_angle)
         // AND the middle angle is at or behind first (0), if not then it's out of the acute range
     }
 }
-
-int main(){
-    bool result = is_angle_between(45,90,270);
-    printf("The result is: %d",result);
-}
